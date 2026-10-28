@@ -813,7 +813,7 @@ BExplAll.MouseButton1Click:Connect(function()
     kp("[EXEC ALL] "..okc.." ok · "..errc.." err",Color3.fromRGB(120,255,180))
 end)
 
-local KEY=(getgenv and getgenv().FEDORA_KEY) or "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"
+local KEY=(getgenv and getgenv().FEDORA_KEY) or "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"
 local API="https://api.groq.com/openai/v1/chat/completions"
 local MODELS="https://api.groq.com/openai/v1/models"
 local PREFER={"llama-3.3-70b-versatile","llama-3.1-70b-versatile","llama-3.3-70b-specdec","llama-3.1-8b-instant","llama3-70b-8192","llama3-8b-8192","gemma2-9b-it","mixtral-8x7b-32768"}
